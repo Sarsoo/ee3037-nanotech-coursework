@@ -374,7 +374,7 @@ Material
 \begin_inset Text
 
 \begin_layout Plain Layout
-Lattice Constant (Å)
+Lattice Constant, α (Å)
 \end_layout
 
 \end_inset
@@ -414,7 +414,7 @@ GaAs
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.653
+5.6532
 \end_layout
 
 \end_inset
@@ -434,7 +434,7 @@ InP
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.869
+5.8687
 \end_layout
 
 \end_inset
@@ -452,6 +452,14 @@ InP
 
 \begin_layout Plain Layout
 Lattice constants for prospective well and barrier materials 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "new_semiconductor_materials_archive"
+literal "false"
+
+\end_inset
+
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Lattice-constants"
@@ -479,7 +487,39 @@ name "tab:Lattice-constants"
 In order to compute a compound lattice constant for InGaAs, Vegard's law
  can be applied.
  Vegard's law provides an approximation for the lattice constant of a solid
- solution by 
+ solution by finding the weighted average the individual lattice constants
+ by composition ratio and is given by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\alpha_{A_{(1-x)}B_{x}}=(1-x)\alpha_{A}+x\alpha_{B}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Applying this to the prospective well material gives the following,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\alpha_{In_{0.53}Ga_{0.47}As}=0.53\cdotp6.0583+0.47\cdotp5.6532=5.8679
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This shows that to 4 significant figures the composition of InGaAs is lattice
+ matched to InP to within 0.001Å which is sufficient for this application.
 \end_layout
 
 \begin_layout Subsubsection
