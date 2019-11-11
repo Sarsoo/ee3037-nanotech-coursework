@@ -43,9 +43,11 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
+\cite_engine biblatex
+\cite_engine_type authoryear
 \biblio_style plain
+\biblatex_bibstyle ieee
+\biblatex_citestyle ieee
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -97,6 +99,393 @@ Quantum Engineering Design
 Structure Design
 \end_layout
 
+\begin_layout Standard
+In order to design a quantum well which emits light of wavelength 1.55μm,
+ a well material must be chosen such that an interband electron transition
+ emits photons of this wavelength.
+\end_layout
+
+\begin_layout Standard
+This band gap energy can be found from the equation 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E=hf
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When considering photons, 
+\begin_inset Formula $f$
+\end_inset
+
+ can be substituted with
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f=\frac{c}{\lambda}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In order to find the 
+\begin_inset Formula $E$
+\end_inset
+
+ in terms of wavelength
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E=\frac{hc}{\lambda}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Returning to the specifications, this allows 1.55μm to be expressed as 1.28x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-19
+\end_layout
+
+\end_inset
+
+ J or approximately 0.8 eV.
+\end_layout
+
+\begin_layout Standard
+This energy value will be the same as the total band gap for the well from
+ the first hole energy level to the first electron enery level, shown as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varSigma E_{g}=E_{1h}+E_{g}+E_{1e}\thickapprox0.8eV
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Well-Band-structure"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename WellBandStructure.png
+	lyxscale 40
+	width 60col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Band structure of an AlGaAs/GaAs/AlGaAs quantum well including discrete
+ energy levels 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ieee_s6824198"
+literal "false"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Well-Band-structure"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E_{g}$
+\end_inset
+
+ should be the dominant term in this equation and as such in investigating
+ suitable materials, the bulk band gap should be close to but lower than
+ 0.8eV.
+\end_layout
+
+\begin_layout Standard
+None of the binary III-V Indium based alloys have bulk band gaps in a suitable
+ range, as such ternary alloys were investigated.
+\end_layout
+
+\begin_layout Standard
+Indium Gallium Arsenide (In
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Ga
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+\begin_inset Formula $(1-x)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+As) as a well material with Indium Phosphide (InP) as a barrier material
+ would provide a suitable combination assuming that a composition ratio
+ 
+\begin_inset Formula $x$
+\end_inset
+
+ could be found that satisfied the two conditions of having the required
+ bulk band gap and being lattice matched.
+ A common ratio in industry is In
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+0.53
+\end_layout
+
+\end_inset
+
+Ga
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+0.47
+\end_layout
+
+\end_inset
+
+As and as such this was tested first.
+\end_layout
+
+\begin_layout Subsubsection
+Lattice Match
+\end_layout
+
+\begin_layout Standard
+Lattice matching is the process of ensuring that two crystalline structures
+ are of similar dimensions in order to decrease strain at the interface
+ between the two materials.
+ This is particularly important for quantum wells formed through epitaxial
+ growth as strain introduced between such thin layers can cause defects
+ ultimately negatively affecting it's electronic properties.
+\end_layout
+
+\begin_layout Standard
+The lattice constants between the barrier and well materials should be as
+ close as is deemed acceptable for the application.
+ The lattice constants for the prospective materials are shown in table
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Lattice-constants"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Material
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lattice Constant (Å)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+InAs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.0583
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GaAs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.653
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+InP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.869
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Lattice constants for prospective well and barrier materials 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Lattice-constants"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In order to compute a compound lattice constant for InGaAs, Vegard's law
+ can be applied.
+ Vegard's law provides an approximation for the lattice constant of a solid
+ solution by 
+\end_layout
+
+\begin_layout Subsubsection
+Band Gap
+\end_layout
+
 \begin_layout Subsection
 Probability Plot
 \end_layout
@@ -118,6 +507,18 @@ Application of Nanomaterials
 
 \begin_layout Standard
 \begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "references"
+options "bibtotoc"
+
 \end_inset
 
 
