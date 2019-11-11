@@ -259,12 +259,12 @@ name "fig:Well-Band-structure"
 \end_layout
 
 \begin_layout Standard
-None of the binary III-V Indium based alloys have bulk band gaps in a suitable
+None of the binary III-V indium based alloys have bulk band gaps in a suitable
  range, as such ternary alloys were investigated.
 \end_layout
 
 \begin_layout Standard
-Indium Gallium Arsenide (In
+indium gallium arsenide (In
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -288,7 +288,7 @@ Ga
 
 \end_inset
 
-As) as a well material with Indium Phosphide (InP) as a barrier material
+As) as a well material with indium phosphide (InP) as a barrier material
  would provide a suitable combination assuming that a composition ratio
  
 \begin_inset Formula $x$
@@ -751,7 +751,7 @@ Having found two materials that are lattice matched with a suitable band
 \emph on
 \begin_inset Formula 
 \begin{equation}
-E_{n}=\frac{n^{2}\pi^{2}\text{ħ}^{2}}{2mL^{2}}\label{eq:Energy-levels}
+E_{n}=\frac{n^{2}\pi^{2}\mathcal{\text{\emph{ħ}}}^{2}}{2mL^{2}}\label{eq:Energy-levels}
 \end{equation}
 
 \end_inset
@@ -1385,6 +1385,57 @@ name "fig:Probability-plot"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename probability-plot-with-n-2.png
+	lyxscale 30
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Probability plot for electron in 1
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+st
+\end_layout
+
+\end_inset
+
+ excited state
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Probability-plot-n-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Probability Intervals
 \end_layout
@@ -1430,6 +1481,151 @@ Where
 \end_inset
 
  is an arbitrary distance across the well.
+\end_layout
+
+\begin_layout Standard
+For an interval across the well, this becomes:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(a\leq x\leq b\right)=\frac{1}{L}\left(\left(b-a\right)-\frac{L}{2n\pi}\left(\sin\left(\frac{2n\pi b}{L}\right)-\sin\left(\frac{2n\pi a}{L}\right)\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename probability-plot-with-bounds.png
+	lyxscale 30
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Probability plot for electron in ground state with distance intervals
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Probability-plot-with-bounds"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $2\unit{nm}$
+\end_inset
+
+ to 
+\begin_inset Formula $4\unit{nm}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(2\unit{nm}\leq x\leq4\unit{nm}\right)=\frac{1}{L}\left(2\unit{nm}-\frac{L}{2n\pi}\left(\sin\left(\frac{2n\pi\cdotp\left(4\unit{nm}\right)}{L}\right)-\sin\left(\frac{2n\pi\cdotp\left(2\unit{nm}\right)}{L}\right)\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(2\unit{nm}\leq x\leq4\unit{nm}\right)=\frac{1}{14.87\unit{nm}}\left(2\unit{nm}-\frac{14.87\unit{nm}}{2\pi}\left(\sin\left(\frac{2\pi\cdotp\left(4\unit{nm}\right)}{14.87\unit{nm}}\right)-\sin\left(\frac{2\pi\cdotp\left(2\unit{nm}\right)}{14.87\unit{nm}}\right)\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(2\unit{nm}\leq x\leq4\unit{nm}\right)\thickapprox0.132
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $6\unit{nm}$
+\end_inset
+
+ to 
+\begin_inset Formula $8\unit{nm}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(6\unit{nm}\leq x\leq8\unit{nm}\right)=\frac{1}{L}\left(2\unit{nm}-\frac{L}{2n\pi}\left(\sin\left(\frac{2n\pi\cdotp\left(8\unit{nm}\right)}{L}\right)-\sin\left(\frac{2n\pi\cdotp\left(6\unit{nm}\right)}{L}\right)\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(6\unit{nm}\leq x\leq8\unit{nm}\right)=\frac{1}{14.87\unit{nm}}\left(2\unit{nm}-\frac{14.87\unit{nm}}{2\pi}\left(\sin\left(\frac{2\pi\cdotp\left(8\unit{nm}\right)}{14.87\unit{nm}}\right)-\sin\left(\frac{2\pi\cdotp\left(6\unit{nm}\right)}{14.87\unit{nm}}\right)\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(6\unit{nm}\leq x\leq8\unit{nm}\right)\thickapprox0.132
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
