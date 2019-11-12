@@ -168,7 +168,7 @@ Returning to the specifications, this allows 1.55μm to be expressed as 1.28x10
 
 \end_inset
 
- J or approximately 0.8 eV.
+ J or approximately 0.800 eV.
 \end_layout
 
 \begin_layout Standard
@@ -180,7 +180,7 @@ This energy value will be the same as the total interband transition for
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-E_{g,transition}=E_{1h}+E_{g}+E_{1e}\thickapprox0.8\unit{eV}\label{eq:Energy-Gap-Sum}
+E_{g,transition}=E_{1h}+E_{g}+E_{1e}\thickapprox0.800\unit{eV}\label{eq:Energy-Gap-Sum}
 \end{equation}
 
 \end_inset
@@ -1618,6 +1618,16 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+Green: 2nm - 4nm
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+Purple: 6nm - 8nm
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1729,6 +1739,36 @@ P\left(6\unit{nm}\leq x\leq8\unit{nm}\right)\thickapprox0.263
 
 \end_layout
 
+\begin_layout Subsection
+Conclusions
+\end_layout
+
+\begin_layout Standard
+Considering these two probabilities it is clear that it is more likely for
+ the electron to be found between 6nm and 8nm than between 2nm and 4nm across
+ the well.
+ This is as expected as 6nm to 8nm places the interval towards the center
+ of the well.
+ As the probability density function is a 
+\begin_inset Formula $\sin^{2}$
+\end_inset
+
+ function, the maxium area will be towards the center.
+ Referring to figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Probability-plot-with-bounds"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ this can be seen graphically as the region created by the purple lines
+ has a far greater area under the probability density function than the
+ region between the green lines.
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -1738,6 +1778,10 @@ P\left(6\unit{nm}\leq x\leq8\unit{nm}\right)\thickapprox0.263
 
 \begin_layout Part
 Application of Nanomaterials
+\end_layout
+
+\begin_layout Standard
+Word count:
 \end_layout
 
 \begin_layout Standard
