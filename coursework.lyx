@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\rfoot{6420013}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -73,7 +76,7 @@
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle fancy
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -1042,7 +1045,7 @@ name "tab:Effective-masses"
 
 \begin_layout Standard
 As the electrical and optical properties of the valence band are governed
- by the heavy hole interactions, this effective mass ration will be used.
+ by the heavy hole interactions, this effective mass ratio will be used.
 \end_layout
 
 \begin_layout Standard
@@ -1747,8 +1750,8 @@ Conclusions
 Considering these two probabilities it is clear that it is more likely for
  the electron to be found between 6nm and 8nm than between 2nm and 4nm across
  the well.
- This is as expected as 6nm to 8nm places the interval towards the center
- of the well.
+ This is as expected considering 6nm to 8nm places the interval towards
+ the center of the well.
  As the probability density function is a 
 \begin_inset Formula $\sin^{2}$
 \end_inset
@@ -1766,7 +1769,7 @@ noprefix "false"
 
  this can be seen graphically as the region created by the purple lines
  has a far greater area under the probability density function than the
- region between the green lines.
+ region formed by the green lines.
 \end_layout
 
 \begin_layout Standard
@@ -1781,7 +1784,26 @@ Application of Nanomaterials
 \end_layout
 
 \begin_layout Standard
-Word count:
+The use of albumin protein nanoparticlces has provided a new delivery method
+ for the highly effective chemotherapy drug, paclitaxel, in turn reducing
+ side effects caused by previous delivery schemes and increasing circulation
+ half life around the body.
+\end_layout
+
+\begin_layout Section
+Paclitaxel
+\end_layout
+
+\begin_layout Section
+Previous Delivery
+\end_layout
+
+\begin_layout Section
+Albumin
+\end_layout
+
+\begin_layout Section
+NAB-Paclitaxel
 \end_layout
 
 \begin_layout Standard
