@@ -216,7 +216,7 @@ status open
 \begin_inset Graphics
 	filename WellBandStructure.png
 	lyxscale 40
-	width 60col%
+	width 50col%
 
 \end_inset
 
@@ -1422,7 +1422,7 @@ status open
 \begin_inset Graphics
 	filename probability-plot.png
 	lyxscale 30
-	width 75col%
+	width 60col%
 
 \end_inset
 
@@ -1468,7 +1468,7 @@ status open
 \begin_inset Graphics
 	filename probability-plot-with-n-2.png
 	lyxscale 30
-	width 75col%
+	width 60col%
 
 \end_inset
 
@@ -1613,7 +1613,7 @@ status open
 \begin_inset Graphics
 	filename probability-plot-with-bounds.png
 	lyxscale 30
-	width 75col%
+	width 60col%
 
 \end_inset
 
@@ -1751,7 +1751,7 @@ Considering these two probabilities it is clear that it is more likely for
  the electron to be found between 6nm and 8nm than between 2nm and 4nm across
  the well.
  This is as expected considering 6nm to 8nm places the interval towards
- the center of the well.
+ the center of the 14.87nm well.
  As the probability density function is a 
 \begin_inset Formula $\sin^{2}$
 \end_inset
@@ -1786,24 +1786,206 @@ Application of Nanomaterials
 \begin_layout Standard
 The use of albumin protein nanoparticlces has provided a new delivery method
  for the highly effective chemotherapy drug, paclitaxel, in turn reducing
- side effects caused by previous delivery schemes and increasing circulation
- half life around the body.
+ side effects and toxicity caused by previous delivery schemes and increasing
+ circulation half life around the body.
 \end_layout
 
 \begin_layout Section
 Paclitaxel
 \end_layout
 
-\begin_layout Section
-Previous Delivery
+\begin_layout Standard
+Paclitaxel is a chemotherapy drug in the taxane family which function as
+ mitotic inhibitors.
+ This involves the suppression of mitosis or cell division which is effective
+ in treating cancer as constant cell mitosis is how cancer spreads throughout
+ the body.
+\end_layout
+
+\begin_layout Standard
+While taxanes are an effective cancer treatment, their use has proved difficult
+ as they are not particularly soluble in water requiring a delivery vehicle
+ in order to allow intraveneous application.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Taxol.svg
+	lyxscale 30
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Chemical structure for paclitaxel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-Albumin
+Previous Delivery Methods
+\end_layout
+
+\begin_layout Standard
+As a result of the poor water solubility of taxanes and paclitaxel, a method
+ for delivering a solution was required.
+ Polyethoxylated castor oil (commercially known as Kolliphor EL, formerly
+ Cremophor EL [CrEL]) combined with dehydrated ethanol provides a suitable
+ formulation vehicle for many poorly water soluble and has been the standard
+ for many forms of commercially available paclitaxel such as Taxol.
+\end_layout
+
+\begin_layout Standard
+While this solution has proved to be an effective delivery mechanism there
+ are significant side effects.
+ CrEL has been shown to cause severe hypersensitivity reactions and peripheral
+ neuropathy which are exacerbated by the high volumes of delivery agent
+ which must be coadministered with the active ingredient
+\begin_inset CommandInset citation
+LatexCommand cite
+key "elsevier_sdoi_10_1016_S0959_8049_01_00171_X"
+literal "false"
+
+\end_inset
+
+.
+ The use of CrEL also affects the behaviour of paclitaxel when administered,
+ manifesting as undesirable non-linear absorption, distribution, metabolism
+ and excretion behaviour
+\begin_inset CommandInset citation
+LatexCommand cite
+key "proquest78006535"
+literal "false"
+
+\end_inset
+
+, typically referred to as a drug's pharmacokinetic characteristics.
+\end_layout
+
+\begin_layout Section
+Human Serum Albumin
+\end_layout
+
+\begin_layout Standard
+Human serum albumin (HSA), sometimes referred to as blood albumin is the
+ most frequently found protein in the human body
+\begin_inset CommandInset citation
+LatexCommand cite
+key "proquest1881262578"
+literal "false"
+
+\end_inset
+
+ and is part of the albumin family of proteins.
+ HSA is produced by the liver and performs important functions such as maintaini
+ng oncotic pressure in the blood vessels, ensuring the right levels of fluids
+ are found between blood vessels and body tissues, and transporting hormones
+ and fatty acids around the body.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hsa.jpg
+	lyxscale 30
+	width 40col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Crystal structure of human serum albumin with binding sites annotated
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BARBOSA2014345"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Importantly for the application of drug delivery HSA along with the rest
+ of the albumin proteins are water soluble and HSA effectively binds with
+ both hydrophobic and hydrophilic chemicals
+\begin_inset CommandInset citation
+LatexCommand cite
+key "proquest1881262578"
+literal "false"
+
+\end_inset
+
+.
+ Critically HSA has been shown to be nontoxic, non-immunogenic (provokes
+ little response from the immune system), biocompatible and biodegradable
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wos000301045400002"
+literal "false"
+
+\end_inset
+
+ providing many advantages over Cremophor EL delivery.
 \end_layout
 
 \begin_layout Section
 NAB-Paclitaxel
+\end_layout
+
+\begin_layout Standard
+Word Count: 
 \end_layout
 
 \begin_layout Standard
