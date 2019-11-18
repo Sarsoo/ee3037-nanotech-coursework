@@ -1780,11 +1780,11 @@ noprefix "false"
 \end_layout
 
 \begin_layout Part
-Application of Nanomaterials
+Application of Nanomaterials - Abraxane
 \end_layout
 
 \begin_layout Standard
-The use of albumin protein nanoparticlces has provided a new delivery method
+The use of albumin protein nanoparticles has provided a new delivery aid
  for the highly effective chemotherapy drug, paclitaxel, in turn reducing
  side effects and toxicity caused by previous delivery schemes and increasing
  circulation half life around the body.
@@ -1797,15 +1797,22 @@ Paclitaxel
 \begin_layout Standard
 Paclitaxel is a chemotherapy drug in the taxane family which function as
  mitotic inhibitors.
- This involves the suppression of mitosis or cell division which is effective
- in treating cancer as constant cell mitosis is how cancer spreads throughout
- the body.
+ This involves the suppression of mitosis or cell division by preventing
+ the breakdown of the microtubules helping provide structure to cells.
+ 
 \end_layout
 
 \begin_layout Standard
-While taxanes are an effective cancer treatment, their use has proved difficult
- as they are not particularly soluble in water requiring a delivery vehicle
- in order to allow intraveneous application.
+This is effective in treating cancer as constant, unmitigated cell mitosis
+ is how cancer spreads throughout the body, blocking this process causes
+ it to die without reproducing.
+\end_layout
+
+\begin_layout Standard
+While taxanes are an effective cancer treatment, their use is made less
+ efficacious due to their particularly insolubility in water requiring additiona
+l chemcials to act as a delivery vehicle in order to allow a solution to
+ be created for intraveneous application.
 \end_layout
 
 \begin_layout Standard
@@ -1838,10 +1845,6 @@ Chemical structure for paclitaxel
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1856,8 +1859,9 @@ As a result of the poor water solubility of taxanes and paclitaxel, a method
  for delivering a solution was required.
  Polyethoxylated castor oil (commercially known as Kolliphor EL, formerly
  Cremophor EL [CrEL]) combined with dehydrated ethanol provides a suitable
- formulation vehicle for many poorly water soluble and has been the standard
- for many forms of commercially available paclitaxel such as Taxol.
+ formulation vehicle for many poorly water soluble and lipophilic drugs
+ and has been the standard for many forms of commercially available paclitaxel
+ such as Taxol.
 \end_layout
 
 \begin_layout Standard
@@ -1901,12 +1905,11 @@ literal "false"
 
 \end_inset
 
- and is part of the albumin family of proteins.
+ and is part of the albumin protein family.
  HSA is produced by the liver and performs important functions such as maintaini
 ng oncotic pressure in the blood vessels, ensuring the right levels of fluids
  are found between blood vessels and body tissues, and transporting hormones
  and fatty acids around the body.
- 
 \end_layout
 
 \begin_layout Standard
@@ -1947,10 +1950,6 @@ literal "false"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1968,7 +1967,7 @@ literal "false"
 \end_inset
 
 .
- Critically HSA has been shown to be nontoxic, non-immunogenic (provokes
+ Critically HSA has been shown to be nontoxic, non-immunogenic (provoking
  little response from the immune system), biocompatible and biodegradable
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1977,7 +1976,23 @@ literal "false"
 
 \end_inset
 
- providing many advantages over Cremophor EL delivery.
+ providing many theoretical advantages over Cremophor EL delivery as a result
+ of using a native biological subtance.
+\end_layout
+
+\begin_layout Standard
+The nanoparticles are biodegradable as nano particles of the sizes 10-100nm
+ can be shown to enter the capillaries and be expelled as part of normal
+ cell clearance.
+\end_layout
+
+\begin_layout Standard
+While HSA is frequently used due to it's native presence in the body reducing
+ the chances of an immunologic response, suitable albumin can also be found
+ in egg whites (ovalbumin [OVA]) and bovine serum (bovine serum albumin
+ [BSA]) where abundance and low cost are advantages.
+ Many of the advantages provided by using albumin can be attributed to using
+ a biological protein.
 \end_layout
 
 \begin_layout Section
@@ -1985,7 +2000,172 @@ NAB-Paclitaxel
 \end_layout
 
 \begin_layout Standard
-Word Count: 
+While there are many ways to produce albumin nanoparticles including desolvation
+, emulsification and thermal gelation, an albumin specific technology was
+ developed in order to capture lipophilic (tending to dissolve in lipids
+ or fats) drugs in albumin nanoparticles known as NAB-technology where NAB
+ refers to nanoparticle albumin-bound.
+\end_layout
+
+\begin_layout Standard
+The formulation process involves the drug in question being mixed in an
+ aqueous solution with HSA before being passed through a high pressure jet.
+ This forms nanoparticles of sizes between 100nm and 200nm
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wos000301045400002"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The solubility in water of the final product is increased as operating at
+ the nano-scale increases the surface area of the particles and increases
+ the dissolution of the formulation.
+ This protein based delivery solution also has the benefit of allowing higher
+ doses of paclitaxel than is deemed safe when delivered in combination with
+ Cremophor.
+ 
+\end_layout
+
+\begin_layout Section
+Abraxane
+\end_layout
+
+\begin_layout Standard
+Abraxane is a NAB-paclitaxel drug sold by Celgene, a biotechnology company
+ developing drugs for cancer and inflammoatory diseases.
+ Abraxane is made up of nanoparticles roughly 130nm in size and represents
+ the first FDA approved use of a nanotechnology chemotherapy for metastatic
+ breast cancer
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wos000301045400002"
+literal "false"
+
+\end_inset
+
+.
+ The European Medicines Agency lists three applications for Abraxane
+\begin_inset CommandInset citation
+LatexCommand cite
+key "epar_summary_for_the_public-abraxane_2015"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+Metastatic breast cancer
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Following failure of an initial treatment
+\end_layout
+
+\begin_layout Itemize
+When a standard treatment including an 'anthracycline' drug is not suitable
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Metastatic adenocarcinoma of the pancreas
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In combination with the drug gemcitabine
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Non-small cell lung cancer
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In combination with the drug carboplatin
+\end_layout
+
+\begin_layout Itemize
+When surgery or radiotherapy is not suitable
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Efficacy
+\end_layout
+
+\begin_layout Standard
+The efficacy of abraxane can be measured by comparing the treatment results
+ of this nanoparticle based approach with the alternative solvent based
+ method.
+ The European Medicines Agency list the results from clinical studies for
+ each of the cancers listed above
+\begin_inset CommandInset citation
+LatexCommand cite
+key "epar_summary_for_the_public-abraxane_2015"
+literal "false"
+
+\end_inset
+
+, with the effectiveness measure defined as whether tumours disappeared
+ or were reduced by at least 30%.
+\end_layout
+
+\begin_layout Standard
+Abraxane was found to be 31% effective compared to 16% for the alternative
+ paclitaxel based treatment for metastatic breast cancer.
+\end_layout
+
+\begin_layout Standard
+However, when considering only patients who had not previously received
+ treatment following a metastatic diagnosis, the effectiveness was the same
+ for both.
+\end_layout
+
+\begin_layout Standard
+For non-small cell lung cancer it was found to be 33% effective as opposed
+ to 25% for the alternative.
+\end_layout
+
+\begin_layout Standard
+With regards to the pancreatic study a combination of Abraxane and gemcitabine
+ increased overall survival to 8.7 months from 6.7 months with a treatment
+ of just gemcitabine.
+\end_layout
+
+\begin_layout Standard
+This indicates that the drug performance is as good or better than alternatives
+ for all three, an encouraging result for a delivery method that also reduces
+ side effects and increases efficiency of delivery.
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Standard
+Considering these results the use of protein nanoparticles looks to represent
+ an effective alternative to solvent based methods in delivering lipophobic
+ drugs.
+ In doing so the side effects of the solvent based methods can be avoided.
+\end_layout
+
+\begin_layout Standard
+The landscape is further broadening with research being completed into applying
+ NAB-technology to other taxanes such as docetaxel and macrolides such as
+ rapamycin.
+\end_layout
+
+\begin_layout Paragraph*
+Part II Word Count: 
 \end_layout
 
 \begin_layout Standard
