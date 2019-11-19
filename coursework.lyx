@@ -143,11 +143,11 @@ f=\frac{c}{\lambda}
 \end_layout
 
 \begin_layout Standard
-Therefore in order to find the 
+Therefore in order to find the energy, 
 \begin_inset Formula $E$
 \end_inset
 
- in terms of wavelength
+, in terms of wavelength
 \end_layout
 
 \begin_layout Standard
@@ -183,7 +183,7 @@ This energy value will be the same as the total interband transition for
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-E_{g,transition}=E_{1h}+E_{g}+E_{1e}\thickapprox0.800\unit{eV}\label{eq:Energy-Gap-Sum}
+E_{g,transition}=E_{1h}+E_{g,bulk}+E_{1e}\thickapprox0.800\unit{eV}\label{eq:Energy-Gap-Sum}
 \end{equation}
 
 \end_inset
@@ -522,8 +522,8 @@ Applying this to the prospective well material gives the following,
 \end_layout
 
 \begin_layout Standard
-This shows that to 4 significant figures the composition of InGaAs is lattice
- matched to InP to within 0.001Å which is sufficient for this application.
+This shows that this combination of InGaAs is lattice matched to InP to
+ within 0.001Å, a sufficient offset for this application.
 \end_layout
 
 \begin_layout Subsection
@@ -755,7 +755,7 @@ Having found two materials that are lattice matched with a suitable band
 \emph on
 \begin_inset Formula 
 \begin{equation}
-E_{n}=\frac{n^{2}\pi^{2}\mathcal{\text{\emph{ħ}}}^{2}}{2mL^{2}}\label{eq:Energy-levels}
+E_{n}=\frac{n^{2}\pi^{2}\mathcal{\text{ħ}}^{2}}{2mL^{2}}\label{eq:Energy-levels}
 \end{equation}
 
 \end_inset
@@ -791,7 +791,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \[
-E_{g,transition}=0.8\unit{eV}=E_{1h}+E_{g,InGaAs}+E_{1e}=\frac{1^{2}\pi^{2}\text{\emph{ħ}}^{2}}{2m_{h}^{*}L^{2}}+E_{g,InGaAs}+\frac{1^{2}\pi^{2}\text{\emph{ħ}}^{2}}{2m_{e}^{*}L^{2}}
+E_{g,transition}=E_{1h}+E_{g,InGaAs}+E_{1e}=\frac{1^{2}\pi^{2}\text{\emph{ħ}}^{2}}{2m_{h}^{*}L^{2}}+E_{g,InGaAs}+\frac{1^{2}\pi^{2}\text{\emph{ħ}}^{2}}{2m_{e}^{*}L^{2}}=0.8\unit{eV}
 \]
 
 \end_inset
@@ -1095,7 +1095,7 @@ For confined electron states:
 \emph on
 \begin_inset Formula 
 \[
-E_{1e}=\frac{1^{2}\pi^{2}\text{\emph{ħ}}^{2}}{2\cdotp m_{e}^{*}\cdotp\left(14.87\unit{nm}\right)^{2}}
+E_{1e}=\frac{1^{2}\pi^{2}\text{ħ}^{2}}{2\cdotp m_{e}^{*}\cdotp\left(14.87\unit{nm}\right)^{2}}
 \]
 
 \end_inset
@@ -1159,7 +1159,7 @@ For confined hole states:
 \emph on
 \begin_inset Formula 
 \[
-E_{1h}=\frac{1^{2}\pi^{2}\text{\emph{ħ}}^{2}}{2\cdotp m_{h}^{*}\cdotp\left(14.87\unit{nm}\right)^{2}}
+E_{1h}=\frac{1^{2}\pi^{2}\text{ħ}^{2}}{2\cdotp m_{h}^{*}\cdotp\left(14.87\unit{nm}\right)^{2}}
 \]
 
 \end_inset
@@ -1241,7 +1241,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-InP/InGaAs/InP quantum well design
+InP/InGaAs/InP quantum well design, relative confined energy level heights
+ are not to scale
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:quantum-well-design"
@@ -1310,7 +1311,7 @@ Here
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\int_{{\textstyle all\:space}}\psi^{*}\psi dV=1
+\int_{{\textstyle all\;space}}\psi^{*}\psi dV=1
 \]
 
 \end_inset
@@ -1340,7 +1341,7 @@ in this case providing the wave function
 \begin_layout Standard
 Importantly, the above conditions are for an infinite quantum well where
  an assumption is made that the well has a barrier region of infinite potential
- such that the wavefunction is confined to the well.
+ such that the wavefunction is confined within the well.
  A real quantum well is unable to satisfy this leading to the wavefunction
  
 \begin_inset Quotes eld
@@ -1750,13 +1751,13 @@ Conclusions
 Considering these two probabilities it is clear that it is more likely for
  the electron to be found between 6nm and 8nm than between 2nm and 4nm across
  the well.
- This is as expected considering 6nm to 8nm places the interval towards
- the center of the 14.87nm well.
+ This would be expected considering 6nm to 8nm places the interval towards
+ the center of the 14.87nm long well.
  As the probability density function is a 
 \begin_inset Formula $\sin^{2}$
 \end_inset
 
- function, the maxium area will be towards the center.
+ function, the majority of the area will be towards the center.
  Referring to figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1795,8 +1796,8 @@ Paclitaxel
 \end_layout
 
 \begin_layout Standard
-Paclitaxel is a chemotherapy drug in the taxane family which function as
- mitotic inhibitors.
+Paclitaxel is a chemotherapy drug in the taxane family which together function
+ as mitotic inhibitors.
  This involves the suppression of mitosis or cell division by preventing
  the breakdown of the microtubules helping provide structure to cells.
  
@@ -1805,14 +1806,14 @@ Paclitaxel is a chemotherapy drug in the taxane family which function as
 \begin_layout Standard
 This is effective in treating cancer as constant, unmitigated cell mitosis
  is how cancer spreads throughout the body, blocking this process causes
- it to die without reproducing.
+ the cells to die without reproducing.
 \end_layout
 
 \begin_layout Standard
 While taxanes are an effective cancer treatment, their use is made less
- efficacious due to their particularly insolubility in water requiring additiona
-l chemcials to act as a delivery vehicle in order to allow a solution to
- be created for intraveneous application.
+ efficacious due to their practical insolubility in water.
+ In order to allow intravenous treatment, additional chemicals must be used
+ as delivery 'vehicles' to improve solubility.
 \end_layout
 
 \begin_layout Standard
@@ -1859,9 +1860,9 @@ As a result of the poor water solubility of taxanes and paclitaxel, a method
  for delivering a solution was required.
  Polyethoxylated castor oil (commercially known as Kolliphor EL, formerly
  Cremophor EL [CrEL]) combined with dehydrated ethanol provides a suitable
- formulation vehicle for many poorly water soluble and lipophilic drugs
- and has been the standard for many forms of commercially available paclitaxel
- such as Taxol.
+ formulation vehicle for many poorly water soluble and lipophilic (tending
+ to dissolve in lipids or fats) drugs and has been the standard for many
+ forms of commercially available paclitaxel such as Taxol.
 \end_layout
 
 \begin_layout Standard
@@ -1907,8 +1908,8 @@ literal "false"
 
  and is part of the albumin protein family.
  HSA is produced by the liver and performs important functions such as maintaini
-ng oncotic pressure in the blood vessels, ensuring the right levels of fluids
- are found between blood vessels and body tissues, and transporting hormones
+ng oncotic pressure in the blood vessels (ensuring the right levels of fluids
+ are found between blood vessels and body tissues) and transporting hormones
  and fatty acids around the body.
 \end_layout
 
@@ -1981,18 +1982,10 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-The nanoparticles are biodegradable as nano particles of the sizes 10-100nm
- can be shown to enter the capillaries and be expelled as part of normal
- cell clearance.
-\end_layout
-
-\begin_layout Standard
 While HSA is frequently used due to it's native presence in the body reducing
  the chances of an immunologic response, suitable albumin can also be found
  in egg whites (ovalbumin [OVA]) and bovine serum (bovine serum albumin
  [BSA]) where abundance and low cost are advantages.
- Many of the advantages provided by using albumin can be attributed to using
- a biological protein.
 \end_layout
 
 \begin_layout Section
@@ -2002,9 +1995,55 @@ NAB-Paclitaxel
 \begin_layout Standard
 While there are many ways to produce albumin nanoparticles including desolvation
 , emulsification and thermal gelation, an albumin specific technology was
- developed in order to capture lipophilic (tending to dissolve in lipids
- or fats) drugs in albumin nanoparticles known as NAB-technology where NAB
- refers to nanoparticle albumin-bound.
+ developed in order to capture lipophilic drugs in albumin nanoparticles
+ known as NAB-technology where NAB refers to nanoparticle albumin-bound.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename nab-pac.png
+	lyxscale 30
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagram showing albumin nanoparticles in combination with paclitaxel
+\begin_inset CommandInset citation
+LatexCommand cite
+key "veeda_edge"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2164,8 +2203,14 @@ The landscape is further broadening with research being completed into applying
  rapamycin.
 \end_layout
 
+\begin_layout Standard
+Drug delivery is one of the largest areas within the field of nanomedicine
+ with other sectors including direct cancer treatment, medical imaging and
+ blood purification.
+\end_layout
+
 \begin_layout Paragraph*
-Part II Word Count: 
+Part II Word Count: 989
 \end_layout
 
 \begin_layout Standard
